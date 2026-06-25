@@ -35,11 +35,11 @@ A backup is created automatically: `YourSub.sub.bak-preview-…`
 - **Barotrauma** (Steam) — vanilla subs are read from `Content/Submarines`
 - **`npm install`** — only needed for shuttle compositing (`pngjs`)
 
-If auto-detection fails, set your install path:
+If auto-detection fails, set your install path (adjust if Steam is on another drive):
 
 ```bash
-# Windows (PowerShell)
-$env:BAROTRAUMA_DIR = "D:\Steam\steamapps\common\Barotrauma"
+# Windows (PowerShell) — default Steam location
+$env:BAROTRAUMA_DIR = "C:\Program Files (x86)\Steam\steamapps\common\Barotrauma"
 
 # Linux / macOS
 export BAROTRAUMA_DIR="$HOME/.steam/steam/steamapps/common/Barotrauma"

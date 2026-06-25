@@ -132,7 +132,6 @@ function findBarotraumaDir(explicit) {
   const candidates = [
     process.env.BAROTRAUMA_DIR,
     'C:/Program Files (x86)/Steam/steamapps/common/Barotrauma',
-    'D:/Steam/steamapps/common/Barotrauma',
     path.join(process.env['ProgramFiles(x86)'] || 'C:/Program Files (x86)', 'Steam/steamapps/common/Barotrauma'),
     path.join(home, 'Steam/steamapps/common/Barotrauma'),
     path.join(home, '.steam/steam/steamapps/common/Barotrauma'),
