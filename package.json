@@ -1,0 +1,30 @@
+{
+  "name": "barotrauma-sub-preview",
+  "version": "1.0.0",
+  "description": "Swap or composite preview images in Barotrauma .sub files (vanilla subs, PNG, linked shuttles)",
+  "type": "module",
+  "license": "MIT",
+  "author": "RaySc1 (Draco)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RaySc1/barotrauma-sub-preview.git"
+  },
+  "bin": {
+    "barotrauma-sub-preview": "./set-sub-preview.mjs"
+  },
+  "scripts": {
+    "start": "node set-sub-preview.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "pngjs": "^7.0.0"
+  },
+  "keywords": [
+    "barotrauma",
+    "submarine",
+    "sub-editor",
+    "preview-image"
+  ]
+}
